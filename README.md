@@ -1,2 +1,2 @@
 # catalogo-lojas-biondi
-Colando meus conhecimentos em pratica usando Html eCSS.
+Ccolocando meus conhecimentos em pratica usando Html e CSS.
