@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe Conosco</title>
+  <link rel="stylesheet" href="css/trabalheconosco.css">
+</head>
+<body>
+  <div class="screen">
+    <div class="leftside">
+      <img src="images/lb.png" alt="financial">
+    </div>
+    <div class="rightside">
+      <h1>Trabalhe conosco</h1>
+
+      <form method="POST" action="cadastro.php" class="b7validator">
+        <label>
+          Seu nome:<br/>
+          <input type="text" name="nome"  placeholder="Digite seu Nome" />
+        </label>
+        <label>
+          Seu e-mail:<br/>
+          <input type="text" name="e-mail" placeholder="Digite seu E-mail"/>
+        </label>
+        <label>
+          Sua senha:<br/>
+          <input type="password" name="senha" placeholder="Digite sua senha" />
+        </label>
+        <label>
+          Seu telefone:<br/>
+          <input type="tel" name="telefone" placeholder="Digite seu telefone" />
+        </label>
+        <label>
+          Selecione uma foto:<br/>
+          <input required="required" name="foto" type="file"/>
+        </label>
+        <label>
+          Selecione sua cidade:<br/>
+          <select required="required" name="Cidade">
+            <option selected="selected" value="">Selecione</option>
+            <option value="1">Curitiba-PR</option>
+            <option value="2">Maringa-PR</option>
+            <option value="3">Ponta Grossa-PR</option>
+            <option value="4">Londrina-PR</option>
+          </select>
+        </label>
+        <label>
+          Escolha seu sexo:<br/>
+          <select required="required" name="Sexo">
+            <option selected="selected">Selecione</option>
+            <option value="1">Maculino</option>
+            <option value="2">feminino</option>
+          </select>
+        </label>
+        <button name="Enviar" type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
